@@ -1,0 +1,77 @@
+[
+    {
+        "model":"product.Category",
+        "pk":1,
+        "fields":{
+            "name":"Category 1",
+            "description":"description for Category 1."  
+        }
+    },
+    {
+        "model":"product.Category",
+        "pk":2,
+        "fields":{
+            "name":"Category 2",
+            "description":"description for Category 2."  
+        }
+    },
+    {
+        "model":"product.Category",
+        "pk":3,
+        "fields":{
+            "name":"Category 3",
+            "description":"description for Category 3."  
+        }
+    },
+    {
+        "model":"product.Category",
+        "pk":4,
+        "fields":{
+            "name":"Category 4",
+            "description":"description for Category 4."  
+        }
+    },
+    {
+        "model":"product.product",
+        "pk":1,
+        "fields":{
+            "name":"Product 1",
+            "description":"description for Product 1.",
+            "price":"1213.56",
+            "stock":123,
+            "image":"null",
+            "category":3,
+            "created_at":"2026-02-01T02:00:00",
+            "updated_at":"2025-02-02T10:00:00" 
+        }
+    },
+    {
+        "model":"product.product",
+        "pk":2,
+        "fields":{
+            "name":"Product 2",
+            "description":"description for Product 2.",
+            "price":"1213.56",
+            "stock":123,
+            "image":"null",
+            "category":3,
+            "created_at":"2026-02-01T02:00:00",
+            "updated_at":"2025-02-02T10:00:00" 
+        }
+    },
+    {
+        "model":"product.product",
+        "pk":3,
+        "fields":{
+            "name":"Product 3",
+            "description":"description for Product 3.",
+            "price":"1213.56",
+            "stock":123,
+            "image":"null",
+            "category":3,
+            "created_at":"2026-02-01T02:00:00",
+            "updated_at":"2025-02-02T10:00:00" 
+        }
+    }
+    
+]
